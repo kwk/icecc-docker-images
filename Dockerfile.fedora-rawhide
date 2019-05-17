@@ -2,7 +2,7 @@ FROM fedora:rawhide
 
 LABEL maintainer="Konrad Kleine <kkleine@redhat.com>"
 LABEL author="Konrad Kleine <kkleine@redhat.com>"
-LABEL description="A distccd image based on Fedora rawhide that I use for distributed compilation of LLDB"
+LABEL description="A distccd image based on Fedora rawhide that I use for distributed compilation of LLVM"
 ENV LANG=en_US.utf8
 
 RUN dnf install -y \
